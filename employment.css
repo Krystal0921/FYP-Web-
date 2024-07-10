@@ -1,0 +1,30 @@
+.btn-primary.underline-button {
+    background-color: #264858;
+    border: none;
+    /* text-decoration: underline; */
+    color: white;
+    width: 200px;
+}
+
+.btn-primary.underline-button:hover {
+    background-color: #0082c6;
+}
+
+.forgot {
+    color: #003569;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+}
+
+.signup {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.signup a {
+    color: #003569;
+    text-decoration: none;
+    font-weight: 600;
+}

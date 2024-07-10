@@ -1,0 +1,183 @@
+    body {
+        background-color: #55098B;
+        /* 75098B 55098B 8B0980 8B0960*/
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .registration-container {
+        text-align: center;
+        display: flex;
+        max-height: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .registration-form {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 7px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+        display: none;
+    }
+
+    .registration-form.active {
+        display: block;
+    }
+
+    .registration-form h1 {
+        display: inline;
+        color: #262626;
+        margin-left: -10px;
+    }
+
+    .registration-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        border: 1px solid #dbdbdb;
+        border-radius: 7px;
+        font-size: 16px;
+    }
+
+    .registration-form button {
+        width: calc(100% - 20px);
+        padding: 10px;
+        width: 300px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+        background-color: #3F8B09;
+        color: white;
+        border: 1px solid #3F8B09;
+        border-radius: 7px;
+        font-size: 16px;
+    }
+
+    .button-container button {
+        width: calc(50% - 3px);
+    }
+
+    .registration-form button:hover {
+        background-color: #4a980b;
+    }
+
+    .signup {
+        margin-top: 10px;
+        text-align: center;
+        color: #8e8e8e;
+    }
+
+    .signup a {
+        color: #003569;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .registration-tabs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .registration-tabs button {
+        display: block;
+        width: 200px;
+        background-color: #3F8B09;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        font-size: 16px;
+        top: 50px;
+        transition: background-color 0.3s;
+    }
+
+    .registration-tabs button:hover {
+        background-color: #4a980b;
+    }
+
+    .registration-container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .radio-container {
+        display: flex;
+        flex-direction: column;
+        /* right: 50px; */
+    }
+
+    .radio-container input[type="radio"] {
+        /* display: inline-block; */
+        position: relative;
+        right: 140px;
+        transform: scale(1);
+    }
+
+    .radio-container label {
+        /* display: inline-block; */
+        /* vertical-align: middle; */
+        /* position: relative; */
+        right: 30px;
+        margin-top: -30px;
+    }
+
+    .checkbox-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .checkbox-container input[type="checkbox"] {
+        position: relative;
+        right: 71px;
+    }
+
+    .checkbox-container label {
+        display: flex;
+        position: relative;
+        right: 28%;
+        font-size: small;
+    }
+
+    .button-container button.reset-btn {
+        background-color: #8B1409;
+        color: white;
+    }
+
+    .button-container button.reset-btn:hover {
+        background-color: #a2190b;
+    }
+
+    .back-icon {
+        font-size: 18px;
+        color: #333;
+        float: left;
+        margin-top: 10px;
+    }
+
+    #addPhotoBtn {
+        background-color: #264858;
+        color: #fff;
+        border: 1px solid #264858;
+        border-radius: 8px 0 0 8px;
+    }
+    
+    #addPhotoBtn:hover {
+        background-color: #4a980b;
+        border: 1px solid #4a980b;
+    }
+
+    
